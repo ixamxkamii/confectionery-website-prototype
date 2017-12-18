@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  background-color: #b3f0ff;
 }
 
 *, *::before, *::after {
@@ -7,10 +8,10 @@ html {
 }
 
 header {
-  font-family: ;
-  color: black;
+  font-family: 'Bungee', sans-serif;
+  color: white;
   text-align: center;
-  background-color: pink;
+  background-color: #33ccff;
   line-height: 1.5;
 }
 
@@ -30,25 +31,24 @@ header {
 }
 
 a {
-  font-family: ;
-  color: black;
+  color: white;
   text-decoration: none;
-  background-color: pink;
-  border: 1px solid purple;
+  background-color: #33ccff;
+  border: 1px solid #006080;
   font-size: 1.125rem;
   display: block;
   padding: .5em;
 }
 
 a:hover {
-  background-color: purple;
+  background-color: #006080;
 }
 
 h1 {
   font-family: ;
-  color: black;
+  color: white;
   text-align: center;
-  background-color: pink;
+  background-color: #33ccff;
   font-size: 2rem;
   margin: 0;
   padding: .5em;
@@ -58,4 +58,22 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
+}
+
+main {
+  background-color: #b3f0ff;
+  margin: 0;
+}
+
+h2{
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+footer {
+  background-color: #33ccff;
+  border: 1px solid white;
 }
