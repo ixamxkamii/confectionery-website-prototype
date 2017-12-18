@@ -1,18 +1,40 @@
 html {
   box-sizing: border-box;
   background-color: #b3f0ff;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
 header {
-  font-family: 'Bungee', sans-serif;
+  font-family: Bungee, sans-serif;
   color: white;
   text-align: center;
-  background-color: #33ccff;
+  background-color: #3cf;
   line-height: 1.5;
+}
+
+.left {
+  float: left;
+  width: 70px;
+  padding: .75em 0 .5em 1em;
+}
+
+.right {
+  float: right;
+  width: 70px;
+  padding: .75em 1em .5em 0;
 }
 
 .nav {
@@ -33,7 +55,7 @@ header {
 a {
   color: white;
   text-decoration: none;
-  background-color: #33ccff;
+  background-color: #3cf;
   border: 1px solid #006080;
   font-size: 1.125rem;
   display: block;
@@ -45,10 +67,8 @@ a:hover {
 }
 
 h1 {
-  font-family: ;
   color: white;
   text-align: center;
-  background-color: #33ccff;
   font-size: 2rem;
   margin: 0;
   padding: .5em;
@@ -63,17 +83,20 @@ body {
 main {
   background-color: #b3f0ff;
   margin: 0;
+  padding: 1em .5em;
 }
 
-h2{
+h2 {
+  padding: 0 0 .5em 0;
   margin: 0;
 }
 
 p {
   margin: 0;
+  padding: 0 0 .5em 0;
 }
 
 footer {
-  background-color: #33ccff;
+  background-color: #3cf;
   border: 1px solid white;
 }
