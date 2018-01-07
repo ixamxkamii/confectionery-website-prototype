@@ -5,6 +5,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  background-color: #ffcce6;
 }
 
 *, *::before, *::after {
@@ -21,82 +22,246 @@ header {
   font-family: Bungee, sans-serif;
   color: white;
   text-align: center;
-  background-color: #3cf;
+  background-color: #ff3399;
   line-height: 1.5;
-}
-
-.left {
-  float: left;
-  width: 70px;
-  padding: .75em 0 .5em 1em;
-}
-
-.right {
-  float: right;
-  width: 70px;
-  padding: .75em 1em .5em 0;
-}
-
-.nav {
-  margin: 0;
-  list-style-type: none;
-  text-align: center;
-  padding: 0;
-  width: 100%;
-  overflow: hidden;
-}
-
-.nav li {
-  display: inline-block;
-  float: left;
-  width: 33.3333%;
-}
-
-a {
-  color: white;
-  text-decoration: none;
-  background-color: #3cf;
-  border: 1px solid #006080;
-  font-size: 1.125rem;
-  display: block;
-  padding: .5em;
-}
-
-a:hover {
-  background-color: #006080;
+  padding: .5rem 0;
+  border-bottom: 4px solid white;
 }
 
 h1 {
+  margin: 0 0 .5rem;
+  font-size: 1.5rem;
   color: white;
-  text-align: center;
-  font-size: 2rem;
+}
+
+.copyright {
+  font-style: normal;
+  font-size: .5rem;
+}
+
+nav ul {
   margin: 0;
-  padding: .5em;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav li {
+  text-align: left;
+}
+
+nav a {
+  display: block;
+  padding: .5em .75em;
+  color: white;
+  text-decoration: none;
+}
+
+.btn-home:hover {
+  color: white;
+  background-color: #bbc451;
+  border-radius: 8px;
+}
+
+.btn-find-us:hover {
+  color: white;
+  background-color: #ff944d;
+  border-radius: 8px;
+}
+
+.btn-contact:hover {
+  color: white;
+  background-color: #f1cd31;
+  border-radius: 8px;
+}
+
+@media only screen and (min-width: 25em) {
+
+  nav li {
+    display: inline-block;
+    text-align: center;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  header {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: left;
+  }
+
+  h1,
+  nav {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  h1 {
+    margin-bottom: 0;
+    margin-right: 1.5rem;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
 }
 
 body {
   width: 100%;
   margin: 0;
   padding: 0;
+  background-color: #ffcce6;
+}
+
+.first-img {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border-bottom: 4px solid white;
 }
 
 main {
-  background-color: #b3f0ff;
   margin: 0;
-  padding: 1em .5em;
+  padding: 0;
 }
 
 h2 {
-  padding: 0 0 .5em 0;
-  margin: 0;
+  padding: 0;
+  margin: .5em 0;
+  background-color: #ff3399;
+  display: block;
+  font-family: Bungee, sans-serif;
+  color: white;
+  text-align: left;
+  padding-left: 1em;
+  border-top: 4px solid white;
+  border-bottom: 4px solid white;
+}
+
+h3 {
+  font-family: Bungee, sans-serif;
+  margin: .25rem 0;
 }
 
 p {
   margin: 0;
-  padding: 0 0 .5em 0;
+  padding: 0;
 }
 
-footer {
-  background-color: #3cf;
-  border: 1px solid white;
+.home-content {
+  margin: 2rem;
+}
+
+.specials {
+  list-style-type: none;
+  margin: 1rem 0;
+  font-family: Bungee, sans-serif;
+  color: white;
+  text-align: left;
+}
+
+.special-gummies {
+  text-align:  center;
+  background-color: #ff3399;
+  border: 4px dashed white;
+  padding: 1rem;
+  max-width: 25%;
+}
+
+.gummies {
+  max-width: 50px;
+}
+
+.special-toffee {
+  text-align:  center;
+  background-color: #ff3399;
+  border: 4px dashed white;
+  padding: 1rem;
+  max-width: 25%;
+}
+
+.toffee {
+  max-width: 50px;
+}
+
+.find-content {
+  margin: 2rem;
+  padding: 0;
+  position: relative;
+}
+
+.map {
+  position: relative;
+  max-height: 100px;
+}
+
+.contact-content {
+  margin: 2rem;
+  padding: 0;
+}
+
+.contact-1 {
+  margin-bottom: 5em;
+}
+
+.contact-1-content {
+  background-color: #ff3399;
+  border: 4px solid white;
+  padding: 1em 0 1em 1em;
+  display: inline-block;
+  width: 15em;
+}
+
+.contact-2-content {
+  background-color: #ff3399;
+  display: inline-block;
+  width: 15em;
+  border: 4px solid white;
+  padding: 1em 0 1em 1em;
+}
+
+.beau {
+  display: inline-block;
+  max-width: 100px;
+  float: left;
+  margin-right: 2em;
+  border: 4px solid white;
+}
+
+.lidia {
+  max-width: 100px;
+  float: left;
+  margin-right: 2em;
+  border: 4px solid white;
+}
+
+.footer-text {
+float: right;
+bottom: 1rem;
+right: 1rem;
+background-color: #ff3399;
+border: 1px solid white;
+padding: .5em 1em;
+color: white;
+margin: 1rem;
 }

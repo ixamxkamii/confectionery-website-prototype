@@ -12,31 +12,72 @@
 <body>
 
   <header>
-    <img class="left" src="images/cotton-left.png" alt="Cotton Candy">
-    <img class="right" src="images/cotton-right.png" alt="Cotton Candy">
-    <h1>Beau's Bonbons</h1>
+    <h1>Beau's Bonbons <em class="copyright">©</em></h1>
     <nav>
       <ul class="nav">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a class="btn-home" href="#home">Home</a></li>
+        <li><a class="btn-find-us" href="#find-us">Find Us</a></li>
+        <li><a class="btn-contact" href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
+    <img class="first-img" width="100%" src="images/candy-store1.jpg" alt="Candy Store">
+
   <main>
-    <h2 id="home">Home</h2>
-    <p>This is the home page</p>
+    <div class="content">
+      <div class="home">
+        <h2 id="home">Home</h2>
+        <div class="home-content">
+          <h3>Weekly Special</h3>
+          <ul class="specials">
+            <div class="special-gummies">
+              <img class="gummies" src="images/sour-gummies.png" alt="Sour Gummies">
+              <li>Sour Gummies</li>
+            </div>
+            <div class="special-toffee">
+              <img class="toffee" src="images/toffee.png" alt="Flavoured Toffee">
+              <li>Flavoured Toffee</li>
+            </div>
+          </ul>
+        </div>
+      </div>
 
-    <h2 id="about">About</h2>
-    <p>This is the about stuff</p>
+      <h2 id="find-us">Find Us</h2>
+      <div class="find-content">
+        <div class="find-content1">
+          <h3>123 Main St.</h3>
+          <p>Ottawa</p>
+          <p>A1B 2C3</p>
+          <p>ON, Canada</p>
+        </div>
+        <a href="#"><img class="map" src="images/map.png" alt="Location"></a>
+      </div>
 
-    <h2 id="contact">Contact</h2>
-    <p>This is the contact stuff</p>
+      <h2 id="contact">Contact</h2>
+      <div class="contact-content">
+        <div class="contact-1">
+          <img class="beau" src="images/beau.jpg" alt="Beau">
+          <div class="contact-1-content">
+            <h3>Owner</h3>
+            <p>Beau Candace</p>
+            <a href="#">beauc@beausbonbons.com</a>
+          </div>
+        </div>
+        <div class="contact-2">
+          <img class="lidia" src="images/lidia.jpg" alt="Lidia">
+          <div class="contact-2-content">
+            <h3>Manager</h3>
+            <p>Lidia Post</p>
+            <a href="#">lidiap@beausbonbons.com</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
 
   <footer>
-    Beau's Bonbons inc.
+    <p class="footer-text">Beau's Bonbons ©</p>
   </footer>
 
 </body>
