@@ -178,6 +178,7 @@ p {
   font-family: Bungee, sans-serif;
   color: white;
   text-align: left;
+  padding: 0;
 }
 
 .special-gummies {
@@ -185,11 +186,12 @@ p {
   background-color: #ff3399;
   border: 4px dashed white;
   padding: 1rem;
-  max-width: 25%;
+  width: 175px;
+  display: inline-block;
 }
 
 .gummies {
-  max-width: 50px;
+  width: 50px;
 }
 
 .special-toffee {
@@ -197,11 +199,12 @@ p {
   background-color: #ff3399;
   border: 4px dashed white;
   padding: 1rem;
-  max-width: 25%;
+  width: 175px;
+  display: inline-block;
 }
 
 .toffee {
-  max-width: 50px;
+  width: 50px;
 }
 
 .find-content {
