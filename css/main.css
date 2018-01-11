@@ -248,6 +248,21 @@ p {
   width: 50px;
 }
 
+.hours-content {
+  margin: 2rem;
+  padding: 0;
+}
+
+.monday, .tuesday, .wednesday, .thursday, .friday, .saturday, .sunday {
+  display: inline-block;
+  background-color: #f39;
+  border: 4px solid white;
+  padding: .5em;
+  width: 175px;
+  margin-right: .25em;
+  margin-bottom: .5em;
+}
+
 .find-content {
   margin: 2rem;
   padding: 0;
@@ -255,6 +270,9 @@ p {
 
 .find-content1 {
   display: inline-block;
+  background-color: #f39;
+  border: 4px solid white;
+  padding: .5em;
 }
 
 .map {
