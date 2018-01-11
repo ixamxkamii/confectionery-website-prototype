@@ -188,10 +188,10 @@ p {
   font-size: 2rem;
   color: #f39;
   text-shadow:
-   -2px -2px 0 white,
+    -2px -2px 0 white,
     2px -2px 0 white,
     -2px 2px 0 white,
-     2px 2px 0 white;
+    2px 2px 0 white;
 }
 
 .home-content {
