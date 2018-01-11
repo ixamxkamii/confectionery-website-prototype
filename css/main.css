@@ -5,6 +5,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   background-color: #ffcce6;
+  line-height: 1.3;
 }
 
 *, *::before, *::after {
@@ -188,6 +189,10 @@ p {
   padding: 1rem;
   width: 175px;
   display: inline-block;
+  height: 175px;
+  vertical-align: top;
+  margin-right: .5em;
+  margin-bottom: .5em;
 }
 
 .gummies {
@@ -201,9 +206,45 @@ p {
   padding: 1rem;
   width: 175px;
   display: inline-block;
+  height: 175px;
+  vertical-align: top;
+  margin-right: .5em;
+  margin-bottom: .5em;
 }
 
 .toffee {
+  width: 50px;
+}
+
+.special-jelly {
+  text-align: center;
+  background-color: #f39;
+  border: 4px dashed white;
+  padding: 1rem;
+  width: 175px;
+  display: inline-block;
+  height: 175px;
+  vertical-align: top;
+  margin-right: .5em;
+  margin-bottom: .5em;
+}
+
+.jelly {
+  width: 50px;
+}
+
+.special-gum {
+  text-align: center;
+  background-color: #f39;
+  border: 4px dashed white;
+  padding: 1rem;
+  width: 175px;
+  display: inline-block;
+  height: 175px;
+  vertical-align: top;
+}
+
+.gum {
   width: 50px;
 }
 
@@ -271,6 +312,13 @@ p {
   float: left;
   margin-right: 2em;
   border: 4px solid white;
+}
+
+.pile {
+  display: inline-block;
+  max-width: 250px;
+  float: right;
+  margin: 0 2em;
 }
 
 .footer-text {
